@@ -1,0 +1,320 @@
+input,div{
+    caret-color: transparent;
+}
+
+
+.home{
+    
+    width: 370px;
+    height: 600px;
+    background-color: rgb(207, 204, 204);
+     margin-left: 31em;
+     margin-top: 1em;
+     border-radius: 2em 2em 2em 2em ;
+    background-repeat: no-repeat;
+    background-image: url('./images/bggg.png');
+    background-size: cover;
+     overflow: hidden;
+     scrollbar-width: none;
+     -ms-overflow-style:none ;
+  
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 370px;
+    height: 3em;
+    background-color:#b93131e5; 
+    border-radius: 2em 2em 0em 0em ;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.navbar2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 370px;
+    height: 4em;
+    background-color:#e43d3de5; 
+    overflow: hidden;
+    margin-top: 530px;
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+}
+
+.marq{
+   width:6em;
+   height:1.7em;
+   margin-top:1em;
+   text-align: center;
+   padding-top: 0.5em;
+   text-wrap: nowrap;
+ 
+}
+
+.notif{
+    width:3em;
+    height:1.7em;
+    padding-top: 0.5em;
+    margin-top:1em;
+}
+#notify2{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/tree.png');
+    border-radius: 0%;
+}
+
+#notify2:hover{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/tree.png');
+    background-color: #e43d3de5;
+    border-radius: 0%;
+}
+#notify1{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/bell.png');
+    border-radius: 0%;
+}
+
+#notify1:hover{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/bell.png');
+    background-color: #e43d3de5;
+    border-radius: 0%;
+}
+
+#notify3{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/menu.png');
+    border-radius: 0%;
+}
+
+#notify3:hover{
+    display: flex;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/menu.png');
+    background-color:#020202e3;
+    border-radius: 0%;
+}
+
+.menu69{
+    width:2em;
+    height: 555px;
+    background-color: #020202e3;
+    border-radius: 0%;
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+
+a[name="aa"]{
+    text-decoration: none;
+    color: #fff280;
+   border-radius: 0%;
+}
+p[name="aaa"]{
+    padding-top:1em;;
+    text-wrap: nowrap;
+    font-size: larger;
+}
+
+p[name="aaa"]:hover{
+    padding-top:1em;;
+    text-wrap: nowrap;
+    font-size: larger;
+    background-color: rgba(183, 0, 255, 0.459);
+    text-align:inherit;
+}
+
+a[name="aa"]{
+    text-decoration: none;
+    color: #fff280;
+   border-radius: 0%;
+}
+.profileInfo1{
+    width: 6em;
+    height: 6em;
+    border-radius: 3em 3em 3em 3em;
+    border: 2px solid rgb(150, 15, 15);
+    background-color: #b126f1;
+    background-size: cover;
+    background-blend-mode:screen;
+    background-repeat: no-repeat;
+    background-image: url('../icons/images4.png');
+    margin-top: 2em;
+    margin-left: 5em;
+    
+}
+
+p[name="back"]{
+      position: absolute;
+      padding-left: 0.5em;
+      padding-top: 2em;
+}
+
+.Newmessage{
+
+    width:14em;
+    height: 5em;
+    background-color: #e43d3d67;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 8.1em;
+    text-align: center;
+    display: none;
+    position: absolute;
+    border:1px solid #b126f1;
+    border-top: 0px;
+}
+
+.bgg{
+     background-color: #9c1f1fc5;
+}
+
+.fortree{
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+    text-align: center;
+    height: 14em;
+    position: absolute;
+    background-color: #e43d3d67;
+    border: 1px solid #e43d3d67;
+    margin-left: 5.1em;
+    border:1px solid #b126f1;
+    border-top: 0px;
+    display: none;
+    margin-top: 3em;
+}
+
+.welcomeDiv{
+    width: 16em;
+    max-height: 70%;
+    overflow-y: auto;
+     margin-left: 3em;
+     background-color: rgba(0, 0, 0, 0.514);
+     scrollbar-width: 5px;
+     -ms-overflow-style:none ;
+     padding-left: 10px;
+     position: absolute;
+     margin-top: 2em;
+     padding-top: 5px;
+     box-shadow: 3px 5px 8px rgb(190, 188, 28);
+
+}
+.welcomeDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.tools{
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em 1.5em;
+    background-color: #fff280;
+   margin-top: 18em;
+    margin-left: 19em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(31, 31, 29, 0.733);
+}
+.tools:hover{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 2em 2em;
+    background-color: #b553f7;
+   margin-top: 18em;
+    margin-left: 19em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(17, 17, 17, 0.801);
+}
+.tools:active{
+    width: 3em;
+    height: 3em;
+    border-radius: 1.5em 1.5em;
+    background-color: #ebd7f8;
+   margin-top: 18em;
+    margin-left: 19em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(17, 17, 17, 0.801);
+}
+
+
+.t2{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em 1em;
+    background-color: #c51e50;
+   margin-top: 13em;
+   margin-left: 14em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(17, 17, 17, 0.801);
+    display: none;
+}
+.t1{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em 1em;
+    background-color: #040205;
+   margin-top: 18em;
+   margin-left: 11em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(17, 17, 17, 0.801);
+    display: none;
+}
+    
+.t3{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em 1em;
+    background-color: #b6ac1b;
+   margin-top: 23.5em;
+   margin-left: 14em;
+    position: absolute;
+    box-shadow: 3px 5px 8px rgba(17, 17, 17, 0.801);
+    display: none;
+}
+
+
+
+
+
+
+/*animation effect */
+
+section{
+        animation:fadeIn 0.5s forwards;
+    }
+
+.upperCanva,.menu,.menu69{
+    animation:fadeIn 0.5s forwards;
+}
+.lowercanva{
+    animation:fadeIn -0.5s backwards;
+}
+
+p{
+    animation:fadeIn 1s forwards;
+}
+
+@keyframes fadeIn{
+      from{
+        opacity:0;
+      }
+      to{
+        opacity:1;
+      }
+}
